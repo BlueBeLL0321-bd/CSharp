@@ -13,10 +13,10 @@ public class IncrementPractice : MonoBehaviour
 
         number1--;
         result1 = ++number1;
-        Debug.Log(result1); // 3
+        Debug.Log(result1); // 3(o)
 
         ++number2;
         result2 = number2--;
-        Debug.Log(result2); // 5
+        Debug.Log(result2); // 5(x) 6
     }
 }
