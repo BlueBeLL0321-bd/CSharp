@@ -8,7 +8,7 @@ public class ForSumPractice : MonoBehaviour
         int n = 100;
         int sum = 0;
 
-        for(int i = 1; i <= 100; i++)
+        for(int i = 1; i <= n; i++)
         {
             if(i % 3 == 0 || i % 4 == 0)
             {
@@ -16,6 +16,6 @@ public class ForSumPractice : MonoBehaviour
             }
         }
 
-        Debug.Log($"3의 배수 또는 4의 배수의 합 : {sum}");
+        Debug.Log($"1부터 {n}까지의 수 중 3의 배수 또는 4의 배수의 합 : {sum}");
     }
 }
