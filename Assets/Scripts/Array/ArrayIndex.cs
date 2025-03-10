@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// Index(인덱스)
+// Index(인덱스) : 몇 번째의 방. [ ] 안에 들어가는 변수, 값
 public class ArrayIndex : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -10,6 +10,7 @@ public class ArrayIndex : MonoBehaviour
         int[] numbers = { 1, 2, 3 };
         // numbers[0] -> 1, numbers[1] -> 2, numbers[2] -> 3
 
+        // 배열의 인덱스를 관리하는 변수, 0으로 초기화, 인덱스 범위 0~2
         int index = 0;
 
 
