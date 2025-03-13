@@ -29,9 +29,9 @@ Enumeration(¿­°ÅÇü) : ÇÏ³ªÀÇ ÀÌ¸§À¸·Î ¼­·Î °ü·Ã ÀÖ´Â Á¤¼ö °ªÀ» °®´Â »ó¼öµéÀÇ ÁýÇ
 // Çü½Ä
 enum (enum ÀÌ¸§)
 {
-    »ó¼öÇü
-    »ó¼öÇü
-    »ó¼öÇü
+    »ó¼öÇü,
+    »ó¼öÇü,
+    »ó¼öÇü,
     ......
 }
 
