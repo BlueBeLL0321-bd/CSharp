@@ -7,14 +7,13 @@ public class TryCatchDescription : MonoBehaviour
     {
         try
         {
-
+            int[] arr = new int[2];
+            arr[100] = 10;
         }
         catch
         {
-
+            Debug.Log("에러가 발생했습니다");
         }
-        int[] arr = new int[2];
-        arr[100] = 10;
     }
 }
 /*
@@ -23,4 +22,14 @@ public class TryCatchDescription : MonoBehaviour
 - 문법 오류
 - 런타임 오류
 - 알고리즘 오류
+
+구문
+try
+{
+    // 명령문
+    // ...
+}
+catch
+{
+    // try 코드 블록 안에 있는 명령문들을 실행 중 예외(Exception) 발생 즉시 처리하는 내용
 */
