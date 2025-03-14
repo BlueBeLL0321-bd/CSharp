@@ -5,26 +5,26 @@ public class ArrayPractice : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // 3Çà 3¿­ÀÇ 2Â÷¿ø ¹è¿­À» ¸¸µé°í
+        // 3í–‰ 3ì—´ì˜ 2ì°¨ì› ë°°ì—´ì„ ë§Œë“¤ê³ 
         int[,] arr = new int[3, 3];
 
-        // °ª ÃÊ±âÈ­, Çà°ú ¿­ÀÇ ÀÎµ¦½º °°À¸¸é 1, Çà°ú ¿­ÀÇ ÀÎµ¦½º°¡ Æ²¸®¸é 0
+        // ê°’ ì´ˆê¸°í™”, í–‰ê³¼ ì—´ì˜ ì¸ë±ìŠ¤ ê°™ìœ¼ë©´ 1, í–‰ê³¼ ì—´ì˜ ì¸ë±ìŠ¤ê°€ í‹€ë¦¬ë©´ 0
         for (int i = 0; i < 3; i++)
         {
             for(int j = 0; j < 3; j++)
             {
-                if (i == j) // Çà°ú ¿­ÀÇ ÀÎµ¦½º °°À¸¸é 1
+                if (i == j) // í–‰ê³¼ ì—´ì˜ ì¸ë±ìŠ¤ ê°™ìœ¼ë©´ 1
                 {
                     arr[i, j] = 1;
                 }
-                else // Çà°ú ¿­ÀÇ ÀÎµ¦½º ´Ù¸£¸é 0
+                else // í–‰ê³¼ ì—´ì˜ ì¸ë±ìŠ¤ ë‹¤ë¥´ë©´ 0
                 {
                     arr[i, j] = 0;
                 }
             }
         }
 
-        // Ãâ·Â
+        // ì¶œë ¥
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)

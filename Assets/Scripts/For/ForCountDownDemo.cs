@@ -7,22 +7,22 @@ public class ForCountDownDemo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // [1] 1ºÎÅÍ 5±îÁö 1¾¿ Áõ°¡
+        // [1] 1ë¶€í„° 5ê¹Œì§€ 1ì”© ì¦ê°€
         for(int i = 1; i < 6; i++)
         {
-            Debug.Log($"Áõ°¡ Countdown : {i}");
+            Debug.Log($"ì¦ê°€ Countdown : {i}");
         }
         Debug.Log("====================================");
 
-        // [2] 5ºÎÅÍ 1±îÁö 1¾¿ °¨¼Ò
+        // [2] 5ë¶€í„° 1ê¹Œì§€ 1ì”© ê°ì†Œ
         /*for(int i = 5; i > 0; i--)
         {
-            Debug.Log($"°¨¼Ò Countdown : {i}");
+            Debug.Log($ê°ì†Œ Countdown : {i}");
         }*/
 
         for(int i = 0; i < 5; i++)
         {
-            Debug.Log($"°¨¼Ò Countdown : {5 - i}");
+            Debug.Log($"ê°ì†Œ Countdown : {5 - i}");
         }
     }
 }
