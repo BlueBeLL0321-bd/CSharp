@@ -8,7 +8,7 @@ namespace Inheritance
     {
         public void Bar()
         {
-            Debug.Log("자식 클래스의 멤버 호출");
+            Debug.Log("자식 클래스 멤버 호출");
         }
     }
 }

@@ -7,7 +7,10 @@ namespace Inheritance
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-
+            // Child 클래스의 인스턴스(객체) 생성
+            Child child = new Child();
+            child.Foo(); // 부모 클래스의 메서드 호출
+            child.Bar(); // 자식 클래스의 메서드 호출
         }
     }
 }
